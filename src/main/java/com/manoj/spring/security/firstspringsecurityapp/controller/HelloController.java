@@ -10,4 +10,11 @@ public class HelloController {
     public String hello(){
         return "Spring Security Rocks!!";
     }
+
+    @GetMapping("/bye")
+    public String bye(){
+        return "Get lost!!";
+    }
+
+
 }
